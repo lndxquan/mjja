@@ -1,0 +1,18 @@
+{"level":"info","time":"2024-04-18T05:56:43Z","message":"Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps"}
+{"level":"info","time":"2024-04-18T05:56:43Z","message":"Requesting new quick Tunnel on trycloudflare.com..."}
+{"level":"info","time":"2024-04-18T05:56:46Z","message":"+--------------------------------------------------------------------------------------------+"}
+{"level":"info","time":"2024-04-18T05:56:46Z","message":"|  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |"}
+{"level":"info","time":"2024-04-18T05:56:46Z","message":"|  https://price-surface-wu-chronic.trycloudflare.com                                        |"}
+{"level":"info","time":"2024-04-18T05:56:46Z","message":"+--------------------------------------------------------------------------------------------+"}
+{"level":"info","time":"2024-04-18T05:56:46Z","message":"Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]"}
+{"level":"info","time":"2024-04-18T05:56:46Z","message":"Version main"}
+{"level":"info","time":"2024-04-18T05:56:46Z","message":"GOOS: linux, GOVersion: go1.21.5, GoArch: amd64"}
+{"level":"info","time":"2024-04-18T05:56:46Z","message":"Settings: map[edge-ip-version:auto ha-connections:1 logfile:argo.log loglevel:info no-autoupdate:true p:http2 protocol:http2 url:http://localhost:8080]"}
+{"level":"info","time":"2024-04-18T05:56:46Z","message":"Generated Connector ID: 5e1b01ca-1d03-4842-a14a-c87d1b910a77"}
+{"level":"info","time":"2024-04-18T05:56:46Z","message":"Initial protocol http2"}
+{"level":"info","time":"2024-04-18T05:56:46Z","message":"ICMP proxy will use 172.17.0.2 as source for IPv4"}
+{"level":"info","time":"2024-04-18T05:56:46Z","message":"ICMP proxy will use :: as source for IPv6"}
+{"level":"warn","error":"Group ID 0 is not between ping group 65534 to 65534","time":"2024-04-18T05:56:46Z","message":"The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network"}
+{"level":"warn","error":"cannot create ICMPv4 proxy: Group ID 0 is not between ping group 65534 to 65534 nor ICMPv6 proxy: socket: permission denied","time":"2024-04-18T05:56:46Z","message":"ICMP proxy feature is disabled"}
+{"level":"info","time":"2024-04-18T05:56:46Z","message":"Starting metrics server on 127.0.0.1:32833/metrics"}
+{"level":"info","event":0,"connection":"2fa0cfca-a1c9-4597-ab8f-ecc8f5971947","connIndex":0,"location":"fra12","ip":"198.41.200.73","protocol":"http2","time":"2024-04-18T05:56:46Z","message":"Registered tunnel connection"}
